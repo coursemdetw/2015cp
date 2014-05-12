@@ -149,8 +149,10 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="2014spring.20140512151541.3213">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="2014spring.20140512151541.3227">利用 SciTE 執行 java 程式時, 要先編譯之後再以 go 執行.</t>
-<t tx="2014spring.20140512161248.3241"></t>
+<t tx="2014spring.20140512151541.3227">利用 SciTE 執行 java 程式時, 要先編譯之後再以 go 執行.
+
+Java8 編譯器放在 NetBeans8 系統下, 因此必須啟動 NetBeans8 之後才可正常編譯</t>
+<t tx="2014spring.20140512161248.3241">C 編譯器放在 NetBeans8 系統下, 因此必須啟動 NetBeans8 之後才可正常編譯</t>
 <t tx="2014spring.20140512161248.3248">參考資料
 
 http://docs.python.org/3/extending/extending.html
