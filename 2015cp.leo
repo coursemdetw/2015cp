@@ -40,7 +40,7 @@
 <v t="2014spring.20140512161248.1724"><vh>@edit programs/IntListVer3.java</vh></v>
 <v t="2014spring.20140512161248.1725"><vh>@edit programs/SortedIntList.java</vh></v>
 </v>
-<v t="2014spring.20140512161248.3241"><vh>有關 C 程式</vh>
+<v t="2014spring.20140512161248.3241" a="E"><vh>有關 C 程式</vh>
 <v t="2014spring.20140512161248.3248" a="E"><vh>Python3 與 C</vh>
 <v t="2014spring.20140512161248.3249"><vh>@button pymod</vh></v>
 <v t="2014spring.20140512161248.3250"><vh>@edit programs/dist/mypy.py</vh></v>
@@ -159,7 +159,21 @@ http://docs.python.org/3/extending/extending.html
 
 http://dan.iel.fm/posts/python-c-extensions/
 
-程式碼: https://gist.github.com/dfm/3247796</t>
+程式碼: https://gist.github.com/dfm/3247796
+
+mypy.py 內容
+
+# 導入 sum.pyd
+import sum
+
+# 呼叫 sum.pyd 中的 sum 函式
+print(sum.sum(1, 30))
+
+mypy2.py 內容
+
+import pyfun
+
+print(pyfun.pyfun("我的字串"))</t>
 <t tx="2014spring.20140512161248.3249">@language python
 import os
 d = c.scanAllDirectives(p)
